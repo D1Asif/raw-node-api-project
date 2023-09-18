@@ -1,1 +1,2 @@
 # raw-node-api-project
+Built this uptime checker with raw nodeJS. User can create, read, update, delete account (authentication implemented) and generate token. Then user set the list of the websites he/she wants to track. The server will continuosly (1 min time interval) check whether the listed site is up and running or down. In case of change of state (for both e.g. from up to down or down to up), user will be notified about the change through a text message. The notifying the user with message is implemented with twilio.
